@@ -20,4 +20,8 @@ public class PingController {
   public String ping() {
     return "pong";
   }
+  @GetMapping("/hello")
+  public String hello() {
+    return "world";
+  }
 }
